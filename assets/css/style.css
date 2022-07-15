@@ -17,6 +17,23 @@ body {
     text-decoration: none;
 }
 
+/*Moved code so it will line up to the html */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+
+}
+
+/*Moved code so it will line up to the html */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Moved code so it will line up to the html */
+.header div{
+    float: right;
+}
+
 /* Removed header one and gave all .header div to a as they effect the same things */
 a {
     text-decoration: none;
@@ -27,21 +44,6 @@ a {
     font-size: 20px;
     list-style-type: none;
 }
-
-.header div{
-    float: right;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 
 
 .header div ul li {
@@ -88,16 +90,20 @@ p {
     background-color: #0072bb;
 }
 
+/* Moved the classes before benefits so the css reads better*/
+/* Consolidate search engine optimization, online reputation management, social media marketing */
 .content img{
     max-height: 200px;
 }
 
+/* Moved the classes before benefits so the css reads better*/
+/* Consolidate search engine optimization, online reputation management, social media marketing */
 .content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*Consoladated the different benefits into one*/
+/* Moved the classes before benefits so the css reads better*/
+/* Consolidate search engine optimization, online reputation management, social media marketing */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -130,6 +136,12 @@ p {
     text-align: center;
 }
 
+/*Changed the text with the rest of the code below so the text shows up black making it easier to see*/
 .footer h2 {
     font-size: 20px;
+    color: black;
+}
+
+.footer p {
+    color: black;
 }
